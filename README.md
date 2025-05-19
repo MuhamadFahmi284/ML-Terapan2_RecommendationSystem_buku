@@ -208,7 +208,7 @@ Pada proyek ini berfokus di metode *collaborative filtering* yaitu metode yang m
 
 * *Collaborative filtering* dengan teknik SVD (*Single Value Decomposition*). Implementasi model SVD di proyek ini menggunakan library [Surprise](https://surprise.readthedocs.io/en/stable/getting_started.html). Cara kerja **collaborative filtering* dengan teknik SVD adalah dengan menggunakan matriks  yang setiap barisnya merepresentasikan pembaca dan kolomnya merepresentasikan buku kemudian dilakukan faktorisasi matriks  dengan SVD yang akan mengekstrak *latent factor* menghasilkan pemetaan relasi antara pembaca dan buku. SVD memecah matriks menjadi 3 matriks yaitu matriks U yang merepresentasikan hubungan antara pembaca dengan *latent factor*, matriks S merupakan matriks  diagonal yang merepresentasikan tingkat variasi dari *latent factor* dan matriks V yang merepresentasikan hubungan antara buku dengan *latent factor*. *Latent factor*  adalah karakteristik dari buku yang digunakan dalam hal ini variabel Book-Rating.
 
-  ![](image/SVD_GEA.jpg)
+  ![Image](https://github.com/user-attachments/assets/f0beee7d-02f1-411b-88b0-9e62fe17c7f2)
 
   
 
@@ -246,7 +246,7 @@ Pada proyek ini berfokus di metode *collaborative filtering* yaitu metode yang m
 
   Proses yang ada di model RecommenderNet adalah *match score* antara pembaca dan buku dihitung menggunakan *dot product* kemudian hasil ini ditambahkan dengan nilai bias pembaca dan bias buku. Hasil akhir akan di skala ulang dengan nilai 0 sampai 1 menggunakan *sigmoid activation* yang mana nilai rating sudah di skala ulang menjadi 0 sampai 1 di tahap persiapan data. Jumlah *embedding layer* yang digunakan adalah 4. Ilustrasi cara kerja *Neural Network* dapat dilihat di Gambar 9.
 
-  ![](image/fully-connected-layers-neural-network.png)
+  ![Image](https://github.com/user-attachments/assets/e82e74d7-d1bb-4e0d-8824-ef199ac7ed3d)
 
   Gambar 6. Ilustrasi Cara Kerja Neural Network di Sistem Rekomendasi
 
@@ -282,7 +282,7 @@ Metric yang digunakan untuk mengevaluasi model adalah RMSE (*Root Mean Squared E
 
 Rumus RMSE
 
-![](image/rmse.png)
+![Image](https://github.com/user-attachments/assets/70e12977-4477-4753-a8c2-d323dd6bd972)
 
 ```
 Dengan n = jumlah dataset, yi = nilai sebenarnya , ŷi = nilai prediksi
