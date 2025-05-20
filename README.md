@@ -294,10 +294,10 @@ Tabel 3. Tabel Hasil RMSE (*Root Mean Squared Error*) tiap model
 
 |                | test     |
 | -------------- | -------- |
-| SVD            | 0,343799 |
-| Neural Network | 0,339373 |
+| SVD            | 0,343416 |
+| Neural Network | 0,441751 |
 
-Dari Tabel 3 terlihat bahwa  nilai RMSE untuk teknik SVD dan teknik *Neural Network* memiliki selisih nilai yang kecil sehingga kedua teknik ini dapat dikatakan cocok digunakan untuk sistem rekomendasi buku dengan  metode *collaborative filtering*. Selain itu nilai RMSE sebesar 0.3 sudah cukup baik dalam implementasi sistem rekomendasi buku ini. Namun teknik *Neural Network* memiliki nilai RMSE yang lebih kecil dan nilai ini bisa ditingkatkan lagi melihat hyperparameter yang digunakan masih dapat di optimasi sehingga teknik yang dipilih dalam proyek ini adalah *Neural Network.*
+Dari Tabel 3 terlihat bahwa nilai RMSE untuk teknik SVD lebih kecil dibandingkan dengan teknik Neural Network, yaitu sebesar 0.343416 untuk SVD dan 0.441751 untuk Neural Network. Hal ini menunjukkan bahwa teknik SVD memberikan performa yang lebih baik dalam hal akurasi prediksi pada sistem rekomendasi buku dengan metode collaborative filtering. Nilai RMSE sebesar 0.3 hingga 0.4 masih tergolong cukup baik dalam konteks sistem rekomendasi. Meskipun performa Neural Network saat ini belum melampaui SVD, teknik ini masih memiliki potensi untuk ditingkatkan lebih lanjut melalui optimasi hyperparameter, arsitektur jaringan, dan data pelatihan. Oleh karena itu, teknik Neural Network tetap dipertimbangkan dalam pengembangan lanjutan proyek ini.
 
 ## Kesimpulan
 
